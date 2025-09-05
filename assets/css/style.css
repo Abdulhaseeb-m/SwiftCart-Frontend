@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+body { background: #f6f8fb; font-family: Inter, system-ui, Arial, sans-serif; margin:0; }
+.hero { background: linear-gradient(180deg, #0f172a 0%, #111827 60%); color: #fff; padding: 4rem 0; }
+.card img { object-fit: cover; height: 220px; }
+.btn { border-radius: .75rem; }
+.rounded-4 { border-radius: 1rem !important; }
+.footer-links a{ color: rgba(255,255,255,0.9); }
+.container-sm-max { max-width: 1100px; margin: 0 auto; }
